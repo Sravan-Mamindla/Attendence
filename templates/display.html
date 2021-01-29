@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>display</title>
+<style>
+    body{
+
+    background: url(/static/images/a.jpg);
+    }
+    
+   
+
+h1{
+    color: rgb(248, 181, 11);
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 0.5em;
+
+}
+
+</style>
+{% endblock %}
+
+{% block body %} 
+
+   
+                    <h1>Hey <b> {{det.name}}! </b> Thank you for submitting Attendance . Your response noted at {{det.time}}</h1><br><br>
+
+    
+    
+{% endblock %}
